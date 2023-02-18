@@ -16,9 +16,9 @@
             //}
 
             var answer = 4;
-            var respose = (answer < 9) ? "Is less than nine" : "Is greater that or equal to nine";
-
+            var response = (answer < 9) ? $"{answer} is less than nine" : $"{answer} is greater that or equal to nine";
+            Console.WriteLine(response);
             }
         }
     }
-}
+

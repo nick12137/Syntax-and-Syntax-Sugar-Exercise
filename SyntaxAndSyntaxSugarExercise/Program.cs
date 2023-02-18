@@ -4,7 +4,21 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //int answer = 4;
+            //string response;
+            //if (answer < 9)
+            //{
+            //    response = answer + " is less than nine";
+            //}
+            //else
+            //{
+            //    response = answer + " is greater than or equal to nine";
+            //}
+
+            var answer = 4;
+            var respose = (answer < 9) ? "Is less than nine" : "Is greater that or equal to nine";
+
+            }
         }
     }
 }
